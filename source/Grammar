@@ -1,0 +1,19 @@
+<Programa> := <bloque> 
+<bloque> := <sentencia> <otra_sentencia> 
+<otra_sentencia>:= ; <sentencia> <otra_sentencia>| <vacío> 
+<sentencia> := <asignación>|<lectura>|<escritura> 
+<asignación> := <variable> = <expresión> 
+<expresión> := <termino> <mas términos> 
+<mas términos> := + <termino> <mas términos> 
+ | - <termino> <mas términos> 
+ | <vacío> 
+<termino> := <factor> <mas factores> 
+<mas factores> := * <factor> <mas factores> 
+ | / <factor> <mas factores> 
+ | % <factor> <mas factores> 
+ | <vacío> 
+<factor> := (<expresión>)|<variable>|<constante> 
+<lectura> := <variable> 
+<escritura> := <variable> 
+<variable> := a | b | c | ... | z 
+<constante> := 0 | 1 | 2 | ... | 9 
