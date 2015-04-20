@@ -17,10 +17,12 @@ Proyecto escolar
 
 ###### Compilación
 1. Desde la terminal colóquese en la carpeta Interprete/
-2. Llamar al programa de construcción tecleando "make" terminado el proceso
-=======
-2. Llamar al programa de construcción tecleando "make"
-3. El archivo resultante estará alojado en Interprete/bin/
+2. Cree una carpeta llamada object
+```bash
+	mkdir object
+```
+3. Llamar al programa de construcción tecleando "make"
+4. El archivo resultante estará alojado en Interprete/bin/
 
 ###### Ejecución
 ```bash
