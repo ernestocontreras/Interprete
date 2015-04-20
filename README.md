@@ -17,7 +17,7 @@ Proyecto escolar
 
 ###### Compilación
 1. Desde la terminal colóquese en la carpeta Interprete/
-2. Cree una carpeta llamada object ```bash mkdir object```
+2. Cree una carpeta llamada object ``` mkdir object```
 3. Llamar al programa de construcción tecleando "make"
 4. El archivo resultante estará alojado en Interprete/bin/
 
