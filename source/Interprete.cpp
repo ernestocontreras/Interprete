@@ -21,14 +21,13 @@ int main(int argc, char const *argv[])
 	Token *tokens = NULL;
 	if(argc <= 1){
 		printf("Modo de uso :Interprete <fichero> <opciones>\n");
-		//return 0;
+		return 0;
 	}
 	if(argc >= 3){
 		if(strcmp(FLAG_LEXEMAS,argv[2]) == 0)
 		lexemas = TRUE;
 	}
-	//setFile(argv[1]);
-	setFile("codigo.code");
+	setFile(argv[1]);
 	aux = readLine();
 	while(aux != NULL){
 		tokens = getTokensFromString(aux);
